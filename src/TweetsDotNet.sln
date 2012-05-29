@@ -13,12 +13,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{FEC8A9
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweetsDotNet.UnitTests", "Tests\TweetsDotNet.UnitTests\TweetsDotNet.UnitTests.csproj", "{1F109ADF-6B42-4230-9E34-65A44B40285D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F109ADF-6B42-4230-9E34-65A44B40285D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F109ADF-6B42-4230-9E34-65A44B40285D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F109ADF-6B42-4230-9E34-65A44B40285D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F109ADF-6B42-4230-9E34-65A44B40285D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{74581F34-BE4F-43EE-9A7E-39F5771AAE8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{74581F34-BE4F-43EE-9A7E-39F5771AAE8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74581F34-BE4F-43EE-9A7E-39F5771AAE8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -32,6 +38,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{1F109ADF-6B42-4230-9E34-65A44B40285D} = {D5DA628D-16DA-474F-A957-4D3EEAE071AE}
 		{74581F34-BE4F-43EE-9A7E-39F5771AAE8E} = {D5DA628D-16DA-474F-A957-4D3EEAE071AE}
 	EndGlobalSection
 EndGlobal

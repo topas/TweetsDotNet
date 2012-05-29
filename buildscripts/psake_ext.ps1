@@ -17,8 +17,8 @@ param(
     <description>Tweets.NET is very simple .NET library for reading public timeline of specified twitter user.</description>
     <summary>Tweets.NET is very simple .NET library for reading public timeline of specified twitter user.</summary>
     <language>en-US</language>
-	  <dependencies>
-    </dependencies>
+	  <dependencies></dependencies>
+    <tags>twitter tweet timeline</tags>
   </metadata>
 </package>
 "

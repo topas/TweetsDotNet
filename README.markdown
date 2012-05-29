@@ -2,6 +2,8 @@ About Tweets.NET
 =============
 Tweets.NET is very simple .NET library for reading public timeline of specified twitter user.
 
+NuGet Package: http://nuget.org/packages/TweetsDotNet
+
 Used libraries & Tools
 -----------------
 This project is using: 

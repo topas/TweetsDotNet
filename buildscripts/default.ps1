@@ -43,6 +43,7 @@ task Test -depends Compile, Clean {
     $old = pwd
     cd $xunit_lib
     cp $xunit_lib\Xunit.dll $build_output
+    Exec { &"$xunit_runners\xunit.console.clr4.exe" "$build_output\TweetsDotNet.UnitTests.dll" }
     Exec { &"$xunit_runners\xunit.console.clr4.exe" "$build_output\TweetsDotNet.IntegrationTests.dll" }
     cd $old	
 }
